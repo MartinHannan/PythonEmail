@@ -82,7 +82,7 @@ def post():
 def email(to, subject, text, attach):
 
     gmail_user = "testingthetestymctest@gmail.com"
-    gmail_pwd = "Bellharbour2016"
+    gmail_pwd = "your password here"
     msg = MIMEMultipart()
     msg['From'] = gmail_user
     msg['To'] = to
